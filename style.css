@@ -351,3 +351,91 @@
   
 
       /* SEC.. swiper img end*/
+
+      .dream {
+        width: 100%;
+        padding: 10px;
+        background: #fff;
+      }
+      
+      .comfort {
+        display: flex;
+        gap: 15px;
+      }
+      
+      .mistakes {
+        width: 220px;
+        border: 1px solid #ddd;
+        border-radius: 14px;
+        overflow: hidden;
+        background: #fff;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        flex-shrink: 0;
+      }
+      
+      .mistakes img {
+        width: 100%;
+        height: 130px;
+        object-fit: cover;
+        border-top-left-radius: 14px;
+        border-top-right-radius: 14px;
+      }
+      
+      .bottom {
+        padding: 10px;
+      }
+      
+      .SRK {
+        font-size: 14px;
+        margin: 4px 0;
+        color: #333;
+      }
+      
+      .supirya {
+        margin-top: 8px;
+        background: #fff;
+        color: #ff6b00;
+        border: 1px solid #ff6b00;
+        padding: 6px 12px;
+        border-radius: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s ease;
+      }
+      
+      .supirya:hover {
+        background: #ff6b00;
+        color: white;
+      }
+      /*                 .............*/
+      .akshay {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        border: 1px solid #e0e0e0;
+        border-radius: 15px;
+        background-color: #fff;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+      }
+      
+      .gita {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+      }
+      
+      .gita img {
+        width: 40px;
+        height: auto;
+      }
+      
+      .gita p {
+        margin: 0;
+        font-size: 14px;
+        color: #0071eb;
+        font-weight: 500;
+        text-align: center;
+      }
+      

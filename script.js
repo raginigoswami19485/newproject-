@@ -56,20 +56,5 @@ document.getElementById('flightForm').addEventListener('submit', function (e) {
   
   // SEC.. swiper img strat...
 
-  const scrollContainer = document.querySelector('.punam');
-const btnLeft = document.querySelector('.divya');
-const btnRight = document.querySelector('.payal');
-
-btnLeft.addEventListener('click', () => {
-  scrollContainer.scrollBy({
-    left: -300,
-    behavior: 'smooth'
-  });
-});
-
-btnRight.addEventListener('click', () => {
-  scrollContainer.scrollBy({
-    left: 300,
-    behavior: 'smooth'
-  });
-});
+//  
+  
