@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -286,69 +287,113 @@
   .swiper-slide img:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 24px rgba(22, 21, 21, 0.2);
-  }
+  } */
   
   
    /* swiper code end */
-   /* SEC.. swiper img strat */
-   
-  .suman {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin: auto;
-  }
-  
-  .punam {
-    display: flex;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    gap: 15px;
-    padding: 10px;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  }
-  
-  .sita {
-    flex: 0 0 auto;
-    width: 290px;
-    height: 110px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .sita img {
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .sita img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  }
-  
-  .divya,.payal {
-    font-size: 30px;
-    cursor: pointer;
-    padding: 10px 15px;
-    background: #ffffff;
-    border-radius: 50%;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-    user-select: none;
-    transition: background 0.3s;
-  }
-  
-  .divya:hover,
-  .payal:hover {
-    background: #e0e0e0;
-  }
-  
+   /* SEC.. swiper img strat  */
+
+    .suman {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px auto;
+}
+
+/* LEFT & RIGHT ARROWS */
+.divya,
+.payal {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+/* Arrow hover */
+
+.divya:hover,
+.payal:hover {
+  background: #eeeeee;
+}
+
+
+/* ===== IMAGE CONTAINER ===== */
+
+.punam {
+ 
+  width: auto;
+  display: flex;
+  flex-direction: row;
+
+  gap: 15px;
+  padding: 10px;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  scroll-behavior: smooth;
+
+  background: #ffffff;
+  border-radius: 10px;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  scrollbar-width: none;
+}
+
+/* Chrome / Edge / Safari */
+
+.punam::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* EACH IMAGE BOX  */
+
+.sita {
+  flex: 0 0 auto;
+
+  width: 390px;
+  height: 110px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* ===== IMAGES ===== */
+
+.sita img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  border-radius: 8px;
+
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  transition: transform 0.3s ease;
+}
+
+
+/* Image hover */
+
+.sita img:hover {
+  transform: scale(1.03);
+}
+
+
+
 
       /* SEC.. swiper img end*/
 
@@ -437,5 +482,64 @@
         color: #0071eb;
         font-weight: 500;
         text-align: center;
-      }
+      } */
       
+      /* slider  code start- */
+
+     #Travel{
+       width: 100%;
+       height:300px ;
+       background-color: #0071eb;
+     }
+
+     .Storie{
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        gap: 10px;
+     }
+     .And{
+            flex: 0 0 auto;
+           width: 290px;
+            height: 300px;
+            display: flex;
+          align-items: center;
+          justify-content: center;
+     }
+     .And img{
+        width: 100%;
+       height: 80%;
+               border-radius: 10px;
+
+     }
+
+           /* slider  code end*/
+
+/*   text code */
+           #super {
+           text-align: center;
+           height: 120px;
+           padding-top: 10px;
+           padding-bottom: 9px;
+           }
+
+      .fast {
+       font-size: 19px;
+       color: black;
+       
+}
+/* end text code */
+
+/*  start last code */
+.lastimage{
+
+  width:100%;
+  height:420px;
+  background-color: #0f9dc1;
+}
+
+.lastphoto{
+}

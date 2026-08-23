@@ -55,6 +55,24 @@ document.getElementById('flightForm').addEventListener('submit', function (e) {
   });
   
   // SEC.. swiper img strat...
+const container = document.querySelector('.punam');
+const prevBtn = document.querySelector('.divya');
+const nextBtn = document.querySelector('.payal');
 
+const scrollAmount = 320;
+
+nextBtn.addEventListener('click', function () {
+  container.scrollBy({
+    left: scrollAmount,
+    behavior: 'smooth'
+  });
+});
+
+prevBtn.addEventListener('click', function () {
+  container.scrollBy({
+    left: -scrollAmount,
+    behavior: 'smooth'
+  });
+});
 //  
   
