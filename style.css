@@ -541,5 +541,411 @@
   background-color: #0f9dc1;
 }
 
-.lastphoto{
+   
+
+/* ************************n */
+
+@media (max-width: 768px) {
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* ---------- NAVBAR ---------- */
+
+  #naving {
+    width: 100%;
+    height: auto;
+    min-height: 70px;
+    padding: 10px 15px;
+    flex-wrap: wrap;
+  }
+
+  .opps {
+    width: 100%;
+    height: auto;
+    min-height: 70px;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .boxs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    font-size: 14px;
+  }
+
+  .opp {
+    font-size: 14px;
+  }
+
+  .minal {
+    width: 100%;
+    margin: 5px 0 0;
+    text-align: center;
+    font-size: 14px;
+  }
+
+
+  /* ---------- FORM HEADING ---------- */
+
+  .ram {
+    width: 90%;
+    height: 45px;
+    margin: 15px auto;
+    font-size: 18px;
+  }
+
+
+  /* ---------- FLIGHT FORM ---------- */
+
+  #flightForm {
+    width: 92%;
+    max-width: none;
+    padding: 18px;
+    margin: 15px auto;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .left label,
+  .right label {
+    font-size: 15px;
+  }
+
+  label {
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  input {
+    width: 100%;
+    padding: 11px;
+    font-size: 15px;
+  }
+
+  #local {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .studio {
+    width: 100%;
+    height: 45px;
+    margin: 10px 0 0;
+    font-size: 16px;
+  }
+
+
+  /* ---------- TICKET ---------- */
+
+  #result {
+    width: 100%;
+    padding: 10px;
+  }
+
+  #result pre {
+    width: 95%;
+    max-width: none;
+    margin: 20px auto;
+    padding: 15px;
+    font-size: 13px;
+    line-height: 1.7;
+    overflow-x: auto;
+  }
+
+  #backBtn {
+    width: 150px;
+    margin: 15px auto;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+
+  /* ---------- IMAGE LINE ---------- */
+
+  #phone,
+  .laptop {
+    width: 100%;
+    height: auto;
+  }
+
+
+  /* ---------- EXPLORE TEXT ---------- */
+
+  .explore {
+    text-align: center;
+    font-size: 24px;
+    padding: 15px;
+    margin-top: 10px;
+  }
+
+
+  /* ---------- ICON STRIP ---------- */
+
+  .icon-strip {
+    width: 94%;
+    height: auto;
+    min-height: 120px;
+    padding: 10px 5px;
+    display: flex;
+    overflow-x: auto;
+    justify-content: flex-start;
+    gap: 5px;
+    box-shadow: 3px 3px 8px rgba(83, 85, 86, 0.4);
+  }
+
+  .lock {
+    min-width: 100px;
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+
+  .lock img {
+    width: 45px;
+    height: 45px;
+  }
+
+
+  /* ---------- IMAGE SLIDER ---------- */
+
+  .suman {
+    width: 100%;
+    gap: 5px;
+  }
+
+  .divya,
+  .payal {
+    width: 30px;
+    min-width: 30px;
+    height: 35px;
+    font-size: 20px;
+  }
+
+  .punam {
+    width: calc(100% - 70px);
+    padding: 8px;
+    gap: 10px;
+  }
+
+  .sita {
+    width: 230px;
+    height: 90px;
+  }
+
+  .sita img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  /* ---------- CARDS ---------- */
+
+  .dream {
+    width: 100%;
+    padding: 10px;
+    overflow-x: hidden;
+  }
+
+  .comfort {
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    gap: 12px;
+    padding-bottom: 10px;
+  }
+
+  .mistakes {
+    min-width: 210px;
+    width: 210px;
+  }
+
+  .mistakes img {
+    width: 100%;
+    height: 120px;
+  }
+
+  .bottom {
+    padding: 8px;
+  }
+
+  .SRK {
+    font-size: 13px;
+  }
+
+
+  /* ---------- ICON BOX ---------- */
+
+  .akshay {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    overflow-x: auto;
+    justify-content: flex-start;
+    gap: 25px;
+    padding: 15px;
+  }
+
+  .gita {
+    min-width: 90px;
+  }
+
+  .gita img {
+    width: 35px;
+  }
+
+  .gita p {
+    font-size: 12px;
+  }
+
+
+  /* ---------- TRAVEL SLIDER ---------- */
+
+  #Travel {
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+  }
+
+  .Storie {
+    width: 100%;
+    overflow-x: auto;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .And {
+    width: 220px;
+    min-width: 220px;
+    height: 220px;
+  }
+
+  .And img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  /* ---------- TEXT ---------- */
+
+  #super {
+    width: 100%;
+    height: auto;
+    padding: 15px 10px;
+  }
+
+  .fast {
+    font-size: 16px;
+    text-align: center;
+  }
+
+
+  /* ---------- LAST IMAGE ---------- */
+
+  .lastimage {
+    width: 100%;
+    height: 300px;
+  }
+
+
+  /* ---------- SWIPER ---------- */
+
+  .swiper {
+    width: 95%;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+    max-width: 250px;
+    height: 150px;
+  }
+
+
+  /* ---------- GENERAL ---------- */
+
+  img {
+    max-width: 100%;
+  }
+
+  button {
+    max-width: 100%;
+  }
+
+}
+
+
+/*
+   VERY SMALL PHONES
+   max-width: 480px
+ */
+
+@media (max-width: 480px) {
+
+  .boxs {
+    gap: 8px;
+  }
+
+  .opp {
+    font-size: 12px;
+  }
+
+  .ram {
+    width: 95%;
+    font-size: 16px;
+  }
+
+  #flightForm {
+    width: 95%;
+    padding: 15px;
+  }
+
+  #local {
+    font-size: 16px;
+  }
+
+  .studio {
+    font-size: 14px;
+  }
+
+  #result pre {
+    font-size: 12px;
+    padding: 12px;
+  }
+
+  .sita {
+    width: 200px;
+    height: 80px;
+  }
+
+  .mistakes {
+    min-width: 190px;
+  }
+
+  .And {
+    min-width: 190px;
+    width: 190px;
+    height: 190px;
+  }
+
 }
